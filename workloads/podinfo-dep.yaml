@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: podinfo
-  namespace: demo
+  namespace: ns-personal-adulvac
   labels:
     app: podinfo
   annotations:
